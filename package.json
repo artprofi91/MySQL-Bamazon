@@ -1,0 +1,23 @@
+{
+  "name": "mysql-bamazon",
+  "version": "1.0.0",
+  "description": "MySQL-Bamazon",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artprofi91/MySQL-Bamazon.git"
+  },
+  "author": "Art",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artprofi91/MySQL-Bamazon/issues"
+  },
+  "homepage": "https://github.com/artprofi91/MySQL-Bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.2.3",
+    "mysql": "^2.14.1"
+  }
+}
