@@ -21,3 +21,6 @@ The Node application called `bamazonManager.js`. Running this application lists 
 * View Low Inventory
 * Add to Inventory
 * Add New Product
+* Quit
+
+![3](https://user-images.githubusercontent.com/28790452/30293671-f8129e5e-96ff-11e7-9703-18f2bf2148c7.gif)
