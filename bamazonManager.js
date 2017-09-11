@@ -34,7 +34,7 @@ function manager(res) {
     type: "rawlist",
     name: "choice",
     message: "What would you like to do?",
-    choices: ["View products for sale", "Add new product", "Add quantity to an existing product", "View low inventory", "Quit"]
+    choices: ["View products for sale", "Add new product", "Add to Inventory", "View low inventory", "Quit"]
   }]).then(function(val) {
     if (val.choice === "View products for sale") {
       console.table(res);
@@ -43,7 +43,7 @@ function manager(res) {
     else if (val.choice === "Add new product") {
       addProduct();
     }
-    else if (val.choice === "Add quantity to an existing product") {
+    else if (val.choice === "Add to Inventory") {
       addInventory(res);
     }
     else if (val.choice === "View low inventory") {
