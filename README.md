@@ -70,3 +70,29 @@ The `total_profit` column is calculated on the fly using the difference between 
 
 ![3](https://user-images.githubusercontent.com/28790452/30298226-3646e666-9710-11e7-973d-a0c51c3f1d0e.gif)
 
+
+## Project Installation
+
+There are two methods to download the repository.
+
+#### Method I: Familiar with Git?
+
+Clone this repository, install dependencies, then run the project with the following:
+
+```
+> git clone git@github.com:artprofi91/MySQL-Bamazon.git
+> cd MySQL-Bamazon
+> npm install
+```
+
+#### Not Familiar with Git?
+
+Click [here](https://github.com/artprofi91/MySQL-Bamazon) then download the .zip file. Extract the contents of the zip file, then open your terminal, change to the project directory and:
+
+```
+> npm install
+```
+
+#### Hint
+
+Don't forget to change password in `bamazonCustomer.js`, `bamazonManager.js` and `bamazonSupervisor.js`.
