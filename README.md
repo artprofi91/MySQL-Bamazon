@@ -44,6 +44,29 @@ If a manager selects `Add to Inventory`, your app displays a prompt that lets th
 ![4](https://user-images.githubusercontent.com/28790452/30297721-5f041648-970e-11e7-9ce3-61907edd5df6.gif)
 
 ### Add New Product
+
 If a manager selects `Add New Product`, it allows the manager to add a completely new product to the store.
 
 ![3](https://user-images.githubusercontent.com/28790452/30297718-5efc4b66-970e-11e7-81e2-c72d7e28c270.gif)
+
+## Supervisor View
+
+Running `bamazonSupervisor.js` lists a set of menu options:
+
+* View Product Sales by Department
+* Create New Department
+* Quit
+
+![1](https://user-images.githubusercontent.com/28790452/30298228-36500fc0-9710-11e7-9939-1b982cbf035b.gif)
+
+### View Product Sales by Department
+
+When a supervisor selects `View Product Sales by Department`, the app displays a summarized table.
+The `total_profit` column is calculated on the fly using the difference between `over_head_costs` and `product_sales`.
+
+![2](https://user-images.githubusercontent.com/28790452/30298227-36480b18-9710-11e7-9dda-88de90fcf2f4.gif)
+
+### Create New Department
+
+![3](https://user-images.githubusercontent.com/28790452/30298226-3646e666-9710-11e7-973d-a0c51c3f1d0e.gif)
+
