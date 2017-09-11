@@ -85,6 +85,7 @@ function buy(product, productList) {
               console.log("Sales added.");
             });
           console.log("Product bought. Thank you.");
+          console.log("The total cost of your purchase - " + answer.quant * product.price + "$");
           bamazon();
         });
     }
